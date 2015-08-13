@@ -1,0 +1,89 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:3:3
+	package
+		ADDED from AndroidManifest.xml:4:3
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:6:3
+	android:versionCode
+		ADDED from AndroidManifest.xml:5:3
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:8:3
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:10:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:9:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:12:3
+	android:name
+		ADDED from AndroidManifest.xml:12:20
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:13:3
+	android:name
+		ADDED from AndroidManifest.xml:13:20
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:14:3
+	android:name
+		ADDED from AndroidManifest.xml:14:20
+uses-feature#0x00020000
+ADDED from AndroidManifest.xml:16:3
+	android:required
+		ADDED from AndroidManifest.xml:18:5
+	android:glEsVersion
+		ADDED from AndroidManifest.xml:17:5
+application
+ADDED from AndroidManifest.xml:20:3
+	android:label
+		ADDED from AndroidManifest.xml:22:5
+	android:allowBackup
+		ADDED from AndroidManifest.xml:23:5
+	android:icon
+		ADDED from AndroidManifest.xml:21:5
+activity#com.esri.arcgis.android.samples.helloworld.HelloWorld
+ADDED from AndroidManifest.xml:24:5
+	android:label
+		ADDED from AndroidManifest.xml:27:7
+	android:configChanges
+		ADDED from AndroidManifest.xml:26:7
+	android:name
+		ADDED from AndroidManifest.xml:25:7
+activity#com.esri.arcgis.android.samples.helloworld.HelloWorldOld
+ADDED from AndroidManifest.xml:30:7
+	android:name
+		ADDED from AndroidManifest.xml:30:17
+activity#com.esri.arcgis.android.samples.helloworld.MyActivity
+ADDED from AndroidManifest.xml:31:7
+	android:label
+		ADDED from AndroidManifest.xml:34:11
+	android:configChanges
+		ADDED from AndroidManifest.xml:33:11
+	android:name
+		ADDED from AndroidManifest.xml:32:11
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:35:11
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:36:15
+	android:name
+		ADDED from AndroidManifest.xml:36:23
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:38:15
+	android:name
+		ADDED from AndroidManifest.xml:38:25
+activity#com.esri.arcgis.android.samples.helloworld.DrawGraphicElements
+ADDED from AndroidManifest.xml:42:7
+	android:label
+		ADDED from AndroidManifest.xml:45:11
+	android:configChanges
+		ADDED from AndroidManifest.xml:44:11
+	android:name
+		ADDED from AndroidManifest.xml:43:11

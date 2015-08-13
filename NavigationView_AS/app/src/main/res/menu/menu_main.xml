@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation_item_1"
+            android:icon="@drawable/ic_launcher"
+            android:title="Item 1"/>
+        <item
+            android:id="@+id/navigation_item_2"
+            android:icon="@drawable/ic_launcher"
+            android:title="Item 2"/>
+
+        <item
+            android:id="@+id/navigation_item_3"
+            android:icon="@drawable/ic_launcher"
+            android:title="Item 3"/>
+    </group>
+</menu>

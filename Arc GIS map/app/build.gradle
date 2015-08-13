@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.esri.arcgis.android.samples.helloworld"
+        minSdkVersion 15
+        targetSdkVersion 19
+    }
+    packagingOptions {
+        exclude 'META-INF/LGPL2.1'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/arcgis-android-api.jar')
+    compile files('libs/arcgis-android-app-toolkit.jar')
+    compile files('libs/jackson-core-lgpl-1.9.5.jar')
+    compile files('libs/jackson-mapper-lgpl-1.9.5.jar')
+    compile files('libs/jcifs-1.3.17.jar')
+}

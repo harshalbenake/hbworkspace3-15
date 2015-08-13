@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/harshalbenake/Desktop/Temp/demo/AndroidStudio/Arc GIS map/app/libs/jcifs-1.3.17.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a2f0e28cc9497fb4927ea2422605fb8023969b6">
+        <dex dex="/Users/harshalbenake/Desktop/Temp/demo/AndroidStudio/Arc GIS map/app/build/intermediates/pre-dexed/debug/jcifs-1.3.17-5bdebe1885c57d378ed727c3f01ede065170b9af.jar" />
+    </item>
+    <item
+        jar="/Users/harshalbenake/Desktop/Temp/demo/AndroidStudio/Arc GIS map/app/libs/jackson-mapper-lgpl-1.9.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ffbb48e87fa5e9107c17aaa0616f724d785a4d71">
+        <dex dex="/Users/harshalbenake/Desktop/Temp/demo/AndroidStudio/Arc GIS map/app/build/intermediates/pre-dexed/debug/jackson-mapper-lgpl-1.9.5-b40b1510b1d2db949aa9626f595808f952287701.jar" />
+    </item>
+    <item
+        jar="/Users/harshalbenake/Desktop/Temp/demo/AndroidStudio/Arc GIS map/app/libs/jackson-core-lgpl-1.9.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="75ac72d19377a95225217cb4fdfa1290f3c81145">
+        <dex dex="/Users/harshalbenake/Desktop/Temp/demo/AndroidStudio/Arc GIS map/app/build/intermediates/pre-dexed/debug/jackson-core-lgpl-1.9.5-d86f520601b2b6129c4cccb2125b0ec32b946397.jar" />
+    </item>
+    <item
+        jar="/Users/harshalbenake/Desktop/Temp/demo/AndroidStudio/Arc GIS map/app/libs/arcgis-android-api.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6eb8b263ff94c660bc05ec011589e4053d65957b">
+        <dex dex="/Users/harshalbenake/Desktop/Temp/demo/AndroidStudio/Arc GIS map/app/build/intermediates/pre-dexed/debug/arcgis-android-api-73ad52b25523ef2de0bdb46c1dc2e298fa201eb6.jar" />
+    </item>
+    <item
+        jar="/Users/harshalbenake/Desktop/Temp/demo/AndroidStudio/Arc GIS map/app/libs/arcgis-android-app-toolkit.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba8d428ad04e30febd942365c6119bb62d7199bb">
+        <dex dex="/Users/harshalbenake/Desktop/Temp/demo/AndroidStudio/Arc GIS map/app/build/intermediates/pre-dexed/debug/arcgis-android-app-toolkit-a5c8af7b401a5aaebaf5e866552133c4ab3ca60d.jar" />
+    </item>
+
+</items>

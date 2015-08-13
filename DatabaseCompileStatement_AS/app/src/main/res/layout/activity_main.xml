@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/insert_raw_query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Raw Query" />
+
+    <Button
+        android:id="@+id/insert_compile_statement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Compile Statement" />
+
+    <Button
+        android:id="@+id/save_to_sdcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save To Sdcard" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
